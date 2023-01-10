@@ -1,11 +1,13 @@
 {
-  "name": "zoo-excise",
+  "name": "zoo-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zoo Exercise",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest --testTimeout=200000 --verbose --runInBand",
+    "test:watch": "npm run test -- --watchAll",
+    "test:coverage": "NODE_ENV=test jest --testTimeout=200000 --verbose --runInBand --coverage"
   },
   "author": "Maximiliano Ibarra",
   "license": "ISC",
