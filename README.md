@@ -24,7 +24,7 @@ The tiger's speak function behaves similarly but with a different sound:
 Please write logic and classes to support our zoo in JavaScript (using whatever
 class model you like) with attention to code structure and readability.
 
-## Installation
+# Installation
 
 Installing the current exercise using npm package
 
@@ -33,7 +33,7 @@ git clone https://github.com/Machi3mfl/zoo-exercise.git
 npm install
 ```
 
-## Run unit tests suite
+# Run unit tests suite
 
 The current exercise only have unit test script, you can run it using the following command:
 
