@@ -42,4 +42,6 @@ npm run test:coverage
 
 You will find the `coverage report` in the next [link](https://machi3mfl.github.io/zoo-exercise/index.html).
 
+<img width="1440" alt="Screenshot 2023-01-14 at 19 59 54" src="https://user-images.githubusercontent.com/6089438/212500763-7becb3be-405f-4cff-aae9-e5bb0b2b1330.png">
+
 Also, you can check the unit tests files to see how to use the solution implemented.
