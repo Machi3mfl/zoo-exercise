@@ -1,5 +1,3 @@
-const { addWordInPhrase } = require('../utils');
-
 class Animal {
     constructor(animalSound){
         if(!animalSound){
@@ -8,10 +6,8 @@ class Animal {
         this.animalSound = animalSound;
     }
 
-    // clase abstracta
     speak(phrase){
-        const sound = addWordInPhrase(phrase, this.animalSound);
-        console.log(sound);
+        throw new Error('Method must be implemented');
     }
 }
 

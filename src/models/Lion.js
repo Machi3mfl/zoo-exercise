@@ -1,4 +1,5 @@
 const Animal = require('./Animal');
+const { addWordInPhrase } = require('../utils');
 
 class Lion extends Animal {
     constructor(){
@@ -6,7 +7,8 @@ class Lion extends Animal {
     }
 
     speak(phrase){
-        super.speak(phrase);
+        const sound = addWordInPhrase(phrase, this.animalSound);
+        console.log(sound);
     }
 }
 
