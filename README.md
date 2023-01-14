@@ -40,11 +40,6 @@ The current exercise only have unit test script, you can run it using the follow
 npm run test:coverage
 ```
 
-You will find the `coverage report` in the next [link](https://machi3mfl.github.io/url-parser-exercise/index.html).
-
+You will find the `coverage report` in the next [link](https://machi3mfl.github.io/zoo-exercise/index.html).
 
 Also, you can check the unit tests files to see how to use the solution implemented.
-
-## Full Documentation
-
-See the [Wiki](https://github.com/Machi3mfl/url-parser-exercise/wiki/) for full documentation, examples, operational details and other information.
